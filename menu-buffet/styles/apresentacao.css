@@ -1,0 +1,37 @@
+.apresentacao {
+    margin: 0 auto;
+    width: 1440px;
+    height: 480px;
+    background-color: #181818;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+
+    font-family: 'Niconne';
+    font-size: 30px;
+    color: white;
+}
+
+.apresentacao--texto {
+    width: 50%;
+    padding: 95px 130px 0 150px;
+    box-sizing: border-box;
+}
+
+
+.apresentacao--imagem {
+    width: 50%;
+
+    background: linear-gradient(90deg, #181818 0%, rgba(24, 24, 24, 0.1) 100%), url(../img/cesta-buffet-bkg.jpg);
+    background-size: cover;
+}
+
+p {
+    margin: 0;
+}
+
+.letra-laranja {
+    color: #EC8B31;
+}

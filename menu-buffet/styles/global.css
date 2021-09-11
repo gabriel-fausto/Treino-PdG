@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Niconne&family=Pacifico&family=Roboto&display=swap');
+    
+body {
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
