@@ -1,0 +1,60 @@
+.combos--table {
+    margin-top: 150px;
+    border-collapse: separate;
+    border-spacing: 16px;
+}
+
+.combos--table h2 {
+    font-family: 'Playfair Display SC';
+    font-weight: 700;
+    font-size: 48px;
+    color: #404040;
+    margin: 0;
+}
+
+.combo--container {
+    padding: 0;
+    border: 5px solid #404040;
+    border-radius: 16px;
+    
+    width: 316px;
+
+    color: #D8DDD9;
+}
+
+.combo--container > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.combo--container h3 {
+    font-family: 'Playfair Display SC';
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.combo--container p {
+    margin-bottom: 16px;
+
+    font-family: 'Cinzel';
+    font-size: 28px;
+    text-align: center;
+
+}
+
+.combo--container .preco {
+    font-size: 32px;
+    font-weight: 700;
+
+}
+.combo--um {
+    background-color: #743232;
+}
+.combo--dois {
+    background-color: #48764F;
+}
+.combo--tres {
+    background-color: #34374A;
+}
