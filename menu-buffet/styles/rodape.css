@@ -1,0 +1,19 @@
+.rodape {
+    background: #FBFBFD;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: 'Cinzel';
+    font-size: 24px;
+}
+
+.rodape--imagem {
+    height: 73px;
+}
+
+.rodape--imagem:first-child {
+    transform: scaleX(-1);
+}
