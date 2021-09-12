@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="./styles/global.css">
     <link rel="stylesheet" href="./styles/cabecalho.css">
     <link rel="stylesheet" href="./styles/apresentacao.css">
+    <link rel="stylesheet" href="./styles/menu.css">
+    <link rel="stylesheet" href="./styles/menu--entrada.css">
+    <link rel="stylesheet" href="./styles/menu--prato-principal.css">
+    <link rel="stylesheet" href="./styles/menu--inferior.css">
 </head>
 
 <body>
@@ -49,11 +53,12 @@
     <main>
         <div class="menu">
             <div class="menu--titulo">
-                <h1>MENU</h1>
-                <img src="" alt="">
+                <h1>menu</h1>
+                <img src="./img/cesta-pao-rustica.png" alt="cesta de pão">
             </div>
+            <hr />
             <section id="entrada" class="menu--entrada">
-                <h2>ENTRADAS</h2>
+                <h2><span>ENTRADAS</span></h2>
                 <div class="menu--entrada--container">
                     <ul class="menu--entrada--lista">
                         <li class="menu--entrada-item">ENTRADA GENERICA 1</li>
@@ -63,7 +68,7 @@
                         <li class="menu--entrada-item">ENTRADA GENERICA 5</li>
                         <li class="menu--entrada-item">ENTRADA GENERICA 6</li>
                     </ul>
-                    <img src="" alt="">
+                    <img src="./img/pao-desenho-2.png" alt="pão">
                     <ul class="menu--entrada--lista">
                         <li class="menu--entrada-item">ENTRADA GENERICA 7</li>
                         <li class="menu--entrada-item">ENTRADA GENERICA 8</li>
@@ -74,21 +79,27 @@
                     </ul>
                 </div>
             </section>
-            <section id="prato-principal" class="menu--prato-principal">
-                <h2>PRATO PRINCIPAL</h2>
-                <ul class="menu--prato-principal--lista">
-                    <li class="menu--prato-principal--item">PRATO GENERICO 1</li>
-                    <li class="menu--prato-principal--item">PRATO GENERICO 2</li>
-                    <li class="menu--prato-principal--item">PRATO GENERICO 3</li>
-                    <li class="menu--prato-principal--item">PRATO GENERICO 4</li>
-                    <li class="menu--prato-principal--item">PRATO GENERICO 5</li>
-                    <li class="menu--prato-principal--item">PRATO GENERICO 6</li>
-                </ul>
-                <img src="" alt="">
-            </section>
-            <div class="menu--inferior--container">
+            <div class="menu--container--prato-principal">
+                <section id="prato-principal" class="menu--prato-principal">
+                    <div class="menu--prato-principal--titulo">
+                        <img src="img/trigo-vertical.png" alt="trigo">
+                        <h2><span>PRATO PRINCIPAL</span></h2>
+                        <img src="img/trigo-vertical.png" alt="trigo">
+                    </div>
+                    <ul class="menu--prato-principal--lista">
+                        <li class="menu--prato-principal--item">PRATO GENERICO 1</li>
+                        <li class="menu--prato-principal--item">PRATO GENERICO 2</li>
+                        <li class="menu--prato-principal--item">PRATO GENERICO 3</li>
+                        <li class="menu--prato-principal--item">PRATO GENERICO 4</li>
+                        <li class="menu--prato-principal--item">PRATO GENERICO 5</li>
+                        <li class="menu--prato-principal--item">PRATO GENERICO 6</li>
+                    </ul>
+                </section>
+                <img src="./img/hamburg.jpg" alt="hamburguer com batata">
+            </div>
+            <div class="menu--container--inferior">
                 <section id="sobremesa" class="menu--sobremesa">
-                    <h2>SOBREMESAS</h2>
+                    <h2><span>SOBREMESAS</span></h2>
                     <ul class="menu--sobremesa--lista">
                         <li class="menu--sobremesa--item">SOBREMESA GENERICA 1</li>
                         <li class="menu--sobremesa--item">SOBREMESA GENERICA 2</li>
@@ -99,24 +110,14 @@
                     </ul>
                 </section>
                 <section class="menu--paes">
-                    <h2>PÃES</h2>
-                    <ul class="menu--paes--lista">
-                        <li class="menu--paes--item">PÃO 1</li>
-                        <li class="menu--paes--item">PÃO 2</li>
-                        <li class="menu--paes--item">PÃO 3</li>
-                        <li class="menu--paes--item">PÃO 4</li>
-                        <li class="menu--paes--item">PÃO 5</li>
-                        <li class="menu--paes--item">PÃO 6</li>
-                        <li class="menu--paes--item">PÃO 7</li>
-                        <li class="menu--paes--item">PÃO 8</li>
-                        <li class="menu--paes--item">PÃO 9</li>
-                        <li class="menu--paes--item">PÃO 10</li>
-                        <li class="menu--paes--item">PÃO 11</li>
-                        <li class="menu--paes--item">PÃO 12</li>
-                        <li class="menu--paes--item">PÃO 13</li>
-                        <li class="menu--paes--item">PÃO 14</li>
-                        <li class="menu--paes--item">PÃO 15</li>
-                    </ul>
+                    <h2><span>PÃES</span></h2>
+                    <p class="menu--paes--lista">
+                        PÃO 1 ~ PÃO 2 ~ PÃO 3 ~ PÃO 4 ~ PÃO 5 ~ PÃO 6 ~ PÃO 7 ~
+                        PÃO 8 ~ PÃO 9 ~ PÃO 10 ~ PÃO 11 ~ PÃO 12
+                        ~ PÃO 13 ~ PÃO 14 ~ PÃO 15 ~ PÃO 1 ~ PÃO 2 ~ PÃO 3 ~
+                        PÃO 4 ~ PÃO 5 ~ PÃO 6 ~ PÃO 7 ~ PÃO 8 ~ PÃO
+                        9 ~ PÃO 10 ~
+                    </p>
                 </section>
             </div>
         </div>

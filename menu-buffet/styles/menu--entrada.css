@@ -1,0 +1,29 @@
+.menu--entrada {
+    margin: 0 30px 30px;
+    padding: 0 67px;
+
+    font-family: 'Cinzel';
+    color: #404040;
+}
+
+.menu--entrada h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.menu--entrada--container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu--entrada--container img {
+    width: 100px;
+}
+
+.menu--entrada-item {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 400;
+}

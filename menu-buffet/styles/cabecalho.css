@@ -1,27 +1,32 @@
 .cabecalho {
-    background: linear-gradient(0deg, rgba(89, 56, 40, 0.85), rgba(89, 56, 40, 0.85)), url(../img/taboa-de-pao.jpg); 
-    background-position: center; 
     margin: 0 auto;
     height: 55px;
+    min-width: 1440px;
+
+    background: linear-gradient(0deg, rgba(89, 56, 40, 0.85), rgba(89, 56, 40, 0.85)), url(../img/taboa-de-pao.jpg); 
+    background-position: center; 
+    background-size: cover;
+
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    background-size: cover;
-    min-width: 1440px;
 }
 
 .cabecalho h3 {
     margin: 0;
+
     font-family: 'Pacifico';
     font-size: 30px;
-    color: #FFF5D4;
     font-weight: 400;
+    color: #FFF5D4;
 }
 
 .cabecalho--navegacao--lista {
     margin: 0;
+
     width: 700px;
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;

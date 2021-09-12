@@ -1,0 +1,59 @@
+main {
+    margin: 200px auto;
+
+    width: 1040px;
+}
+
+.menu {
+    border: 15px solid #404040;
+}
+
+.menu--titulo {
+    margin: 30px 30px 0 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background-image: url(../img/trigo-horizontal.png);
+    background-repeat: no-repeat;
+    background-position: 0 20px;
+}
+
+.menu--titulo h1 {
+    margin: 0 0 0 140px;
+    border-bottom: 2px solid #573434;
+
+    line-height: 90px;
+
+    font-family: 'Playfair Display SC';
+    font-style: italic;
+    font-weight: normal;
+    font-size: 90px;
+    color: #573434;
+}
+
+.menu--titulo img {
+    height: 150px;
+}
+
+main hr {
+    margin: 50px 97px 40px;
+    border: 0;
+    border-bottom: 1px solid #404040;
+}
+
+.menu h2 {
+    line-height: 1;
+    
+    font-size: 40px;
+    font-family: 'Cinzel';
+    font-weight: 700;
+}
+
+.menu h2 > span {
+    border-bottom: 2px solid #404040;
+    display: inline-block;
+    line-height: 0.85;
+}

@@ -1,0 +1,65 @@
+.menu--container--inferior {
+    margin: 32px 30px;
+
+    height: 430px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.menu--container--inferior section {
+    width: 460px;
+}
+
+.menu--sobremesa {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #404040;
+}
+
+.menu--sobremesa--lista {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu--sobremesa--item {
+    font-size: 32px;
+}
+
+.menu--paes {
+    background: linear-gradient(0deg, rgba(64, 64, 64, 0.75), rgba(64, 64, 64, 0.75)), url(../img/paes-buffet-bkg.jpg);
+    background-position: center; 
+    background-size: cover;
+
+    border:1px solid #404040;
+    border-radius: 16px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    color: white;
+}
+
+.menu--paes h2 > span {
+    border-color: white;
+}
+
+.menu--paes--lista {
+    height: 100%;
+    margin-bottom: 28px;
+
+    display: flex;
+    align-items: center;
+    
+    font-size: 24px;
+}
