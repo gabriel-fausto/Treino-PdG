@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background: linear-gradient(0deg, rgba(89, 56, 40, 0.85), rgba(89, 56, 40, 0.85)), url(../img/taboa-de-pao.jpg); 
+    background: linear-gradient(0deg, rgba(89, 56, 40, 0.85), rgba(89, 56, 40, 0.85)), url(./img/taboa-de-pao.jpg); 
     background-position: center; 
     margin: 0 auto;
     height: 80px;
@@ -83,7 +83,7 @@ nav ul li a figure figcaption {
 
 main {
     height: 600px;
-    background: radial-gradient(100% 100% at 50% 50%, rgba(255, 250, 241, 0.8) 0%, rgba(255, 250, 241, 0) 100%), url(../img/dois-paes.jpg);
+    background: radial-gradient(100% 100% at 50% 50%, rgba(255, 250, 241, 0.8) 0%, rgba(255, 250, 241, 0) 100%), url(./img/dois-paes.jpg);
     background-position: center; 
     background-size: cover;
     display: flex;
