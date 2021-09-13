@@ -1,10 +1,5 @@
 .menu--container--prato-principal {
     height: 650px;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: stretch;
 }
 
 .menu--container--prato-principal > img {
@@ -21,20 +16,8 @@
 
     background-color: rgba(87, 52, 52, 1);
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-
     font-family: 'Cinzel';
     color: #E8BF83;
-}
-
-.menu--prato-principal--titulo {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
 }
 
 .menu--prato-principal--titulo img {
@@ -57,6 +40,7 @@
     margin: 0;
 
     font-size: 32px;
+    text-align: center;
 }
 
 .menu--prato-principal--item:not(:last-child) {

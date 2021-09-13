@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu | Padaria do Gabs</title>
+    <link rel="stylesheet" href="./styles/flex--util.css">
     <link rel="stylesheet" href="./styles/global.css">
     <link rel="stylesheet" href="./styles/cabecalho.css">
     <link rel="stylesheet" href="./styles/apresentacao.css">
@@ -14,14 +15,15 @@
     <link rel="stylesheet" href="./styles/menu--prato-principal.css">
     <link rel="stylesheet" href="./styles/menu--inferior.css">
     <link rel="stylesheet" href="./styles/combos.css">
-    <link rel="stylesheet" href="styles/rodape.css">
+    <link rel="stylesheet" href="./styles/rodape.css">
+    <link rel="stylesheet" href="./styles/aside--navegacao.css">
 </head>
 
 <body>
-    <header class="cabecalho">
+    <header class="cabecalho flexrow--evenly--center">
         <h3>Padoca do Gabs</h3>
         <nav class="cabecalho--navegacao">
-            <ul class="cabecalho--navegacao--lista">
+            <ul class="cabecalho--navegacao--lista flexrow--between--center">
                 <li class="cabecalho--navegacao--item">
                     <a href="#">Pães do dia</a>
                 </li>
@@ -40,8 +42,8 @@
             </ul>
         </nav>
     </header>
-    <section class="apresentacao" id="apresentacao">
-        <article class="apresentacao--texto">
+    <section class="apresentacao flexrow--between--stretch" id="apresentacao">
+        <article class="apresentacao--texto flexrow--center--center">
             <p>Seja um encontro de negocios ou um casamento, uma comida que não
                 pode faltar na mesa é o pão, por issoelaboramos um cardapio
                 personalizado, onde exploramos formas e sabores de pães de todas
@@ -54,66 +56,66 @@
     </section>
     <main>
         <div class="menu">
-            <div class="menu--titulo">
-                <h1>menu</h1>
+            <div class="menu--titulo flexrow--between--center">
+                <h1><i>menu</i></h1>
                 <img src="./img/cesta-pao-rustica.png" alt="cesta de pão">
             </div>
             <hr />
             <section id="entrada" class="menu--entrada">
                 <h2><span>ENTRADAS</span></h2>
-                <div class="menu--entrada--container">
+                <div class="flexrow--between--center">
                     <ul class="menu--entrada--lista">
-                        <li class="menu--entrada-item">ENTRADA GENERICA 1</li>
-                        <li class="menu--entrada-item">ENTRADA GENERICA 2</li>
-                        <li class="menu--entrada-item">ENTRADA GENERICA 3</li>
-                        <li class="menu--entrada-item">ENTRADA GENERICA 4</li>
-                        <li class="menu--entrada-item">ENTRADA GENERICA 5</li>
-                        <li class="menu--entrada-item">ENTRADA GENERICA 6</li>
+                        <li>QUEIJO QUENTE</li>
+                        <li>ROSQUINHA</li>
+                        <li>PÃO COM MAIONESE</li>
+                        <li>CAFEZINHO COM PÃO</li>
+                        <li>CAFEZINHO DUPLO</li>
+                        <li>CAFEZINHO TRIPLO</li>
                     </ul>
-                    <img src="./img/pao-desenho-2.png" alt="pão">
+                    <img class="menu--entrada--img" src="./img/pao-desenho-2.png" alt="pão">
                     <ul class="menu--entrada--lista">
-                        <li class="menu--entrada-item">ENTRADA GENERICA 7</li>
-                        <li class="menu--entrada-item">ENTRADA GENERICA 8</li>
-                        <li class="menu--entrada-item">ENTRADA GENERICA 9</li>
-                        <li class="menu--entrada-item">ENTRADA GENERICA 10</li>
-                        <li class="menu--entrada-item">ENTRADA GENERICA 11</li>
-                        <li class="menu--entrada-item">ENTRADA GENERICA 12</li>
+                        <li>PÃO COM MANTEIGA</li>
+                        <li>TORRADA COM GELEIA</li>
+                        <li>OMELETE NO PÃO</li>
+                        <li>MISTO QUENTE</li>
+                        <li>PÃO NA CHAPA</li>
+                        <li>PÃO DE QUEIJO</li>
                     </ul>
                 </div>
             </section>
-            <div class="menu--container--prato-principal">
-                <section id="prato-principal" class="menu--prato-principal">
-                    <div class="menu--prato-principal--titulo">
+            <div class="menu--container--prato-principal flexrow--between--stretch">
+                <section id="prato-principal" class="menu--prato-principal flexcol--around--center">
+                    <div class="menu--prato-principal--titulo flexrow--center--center">
                         <img src="img/trigo-vertical.png" alt="trigo">
                         <h2><span>PRATO PRINCIPAL</span></h2>
                         <img src="img/trigo-vertical.png" alt="trigo">
                     </div>
                     <ul class="menu--prato-principal--lista">
-                        <li class="menu--prato-principal--item">PRATO GENERICO 1</li>
-                        <li class="menu--prato-principal--item">PRATO GENERICO 2</li>
-                        <li class="menu--prato-principal--item">PRATO GENERICO 3</li>
-                        <li class="menu--prato-principal--item">PRATO GENERICO 4</li>
-                        <li class="menu--prato-principal--item">PRATO GENERICO 5</li>
-                        <li class="menu--prato-principal--item">PRATO GENERICO 6</li>
+                        <li class="menu--prato-principal--item">SOPA COM PÃO</li>
+                        <li class="menu--prato-principal--item">CALDO VERDE E PÃO</li>
+                        <li class="menu--prato-principal--item">HAMBURGUER</li>
+                        <li class="menu--prato-principal--item">MIOJO COM PÃO</li>
+                        <li class="menu--prato-principal--item">MERCADÃO</li>
+                        <li class="menu--prato-principal--item">HAMBURGUER DUPLO</li>
                     </ul>
                 </section>
                 <img src="./img/hamburg.jpg" alt="hamburguer com batata">
             </div>
-            <div class="menu--container--inferior">
-                <section id="sobremesa" class="menu--sobremesa">
+            <div class="menu--container--inferior flexrow--between--stretch">
+                <section id="sobremesa" class="menu--sobremesa flexcol--between--center">
                     <h2><span>SOBREMESAS</span></h2>
-                    <ul class="menu--sobremesa--lista">
-                        <li class="menu--sobremesa--item">SOBREMESA GENERICA 1</li>
-                        <li class="menu--sobremesa--item">SOBREMESA GENERICA 2</li>
-                        <li class="menu--sobremesa--item">SOBREMESA GENERICA 3</li>
-                        <li class="menu--sobremesa--item">SOBREMESA GENERICA 4</li>
-                        <li class="menu--sobremesa--item">SOBREMESA GENERICA 5</li>
-                        <li class="menu--sobremesa--item">SOBREMESA GENERICA 6</li>
+                    <ul class="menu--sobremesa--lista flexcol--between--center">
+                        <li>SOBREMESA GENERICA 1</li>
+                        <li>SOBREMESA GENERICA 2</li>
+                        <li>SOBREMESA GENERICA 3</li>
+                        <li>SOBREMESA GENERICA 4</li>
+                        <li>SOBREMESA GENERICA 5</li>
+                        <li>SOBREMESA GENERICA 6</li>
                     </ul>
                 </section>
-                <section class="menu--paes">
+                <section class="menu--paes flexcol--between--center">
                     <h2><span>PÃES</span></h2>
-                    <p class="menu--paes--lista">
+                    <p class="menu--paes--lista flexrow--center--center">
                         PÃO 1 ~ PÃO 2 ~ PÃO 3 ~ PÃO 4 ~ PÃO 5 ~ PÃO 6 ~ PÃO 7 ~
                         PÃO 8 ~ PÃO 9 ~ PÃO 10 ~ PÃO 11 ~ PÃO 12
                         ~ PÃO 13 ~ PÃO 14 ~ PÃO 15 ~ PÃO 1 ~ PÃO 2 ~ PÃO 3 ~
@@ -135,30 +137,30 @@
                 <tbody>
                     <tr>
                         <td class="combo--container combo--um">
-                            <div>
+                            <div class="flexcol--between--center">
                                 <h3>COMBO GRIF</h3>
                                 <p>2 entradas</p>
                                 <p>1 prato principal</p>
                                 <p>1 sobremesa</p>
-                                <p class="preco">R$ 200,00</p>
+                                <p class="preco"><b>R$ 200,00</b></p>
                             </div>
                         </td>
                         <td class="combo--container combo--dois">
-                            <div>
+                            <div class="flexcol--between--center">
                                 <h3>COMBO SONS</h3>
                                 <p>4 entradas</p>
                                 <p>2 pratos principais</p>
                                 <p>3 sobremesas</p>
-                                <p class="preco">R$ 400,00</p>
+                                <p class="preco"><b>R$ 400,00</b></p>
                             </div>
                         </td>
                         <td class="combo--container combo--tres">
-                            <div>
+                            <div class="flexcol--between--center">
                                 <h3>COMBO CORV</h3>
                                 <p>7 entradas</p>
                                 <p>3 pratos principais</p>
                                 <p>4 sobremesas</p>
-                                <p class="preco">R$ 600,00</p>
+                                <p class="preco"><b>R$ 600,00</b></p>
                             </div>
                         </td>
                     </tr>
@@ -166,11 +168,22 @@
             </table>
         </section>
     </main>
-    <footer class="rodape">
+    <footer class="rodape flexrow--between--center">
         <img class="rodape--imagem" src="../img/Pao.jpg" alt="pão ao contrario, ou oãp, como preferir">
         <p>Gabriel Rodrigues Fausto © 2021</p>
         <img class="rodape--imagem" src="../img/Pao.jpg" alt="pão">
     </footer>
+    <aside>
+        <nav class="aside--navegacao">
+            <div class="aside--navegacao--lista">
+                <p><a href="#apresentacao">apresentação</span></a></p>
+                <p><a href="#entrada">entradas</span></a></p>
+                <p><a href="#prato-principal">prato principal</span></a></p>
+                <p><a href="#sobremesa">sobremesas</span></a></p>
+                <p><a href="#combos">combos</span></a></p>
+            </div>
+        </nav>
+    </aside>
 </body>
 
 </html>

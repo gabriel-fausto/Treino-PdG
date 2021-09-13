@@ -1,0 +1,30 @@
+aside {
+    position: fixed;
+    top:60%;
+    left: 0;
+}
+
+.aside--navegacao--lista {
+    font-family: 'Cinzel';
+    font-size: 24px;
+}
+
+.aside--navegacao--lista p {
+    margin: 0;
+    border: 1px solid #404040;
+    padding-left: 14px;
+
+    background-color: white;
+}
+
+.aside--navegacao--lista p:first-child  {
+    border-top-right-radius: 8px;
+}
+
+.aside--navegacao--lista p:last-child {
+    border-bottom-right-radius: 8px;
+}
+
+.aside--navegacao--lista a {
+    color: #404040;
+}
