@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar receita - Padaria do Gabs</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/global.css">
+</head>
+
+<body>
+    <header style="height: 55px;" class="d-flex justify-content-center align-items-center bg-dark text-white w-100">
+        <div class="container">
+            <h2 class="text-center text-white">Padaria do Gabs</h2>
+        </div>
+    </header>
+    <main class="container p-0 px-3 mt-3">
+        <form class="row form-control px-3 m-0" action="">
+            <h1 class="mt-3 text-center">Solicite seu prato personalizado</h1>
+
+            <h3 class="mt-5 text-center">Informações para contato</h3>
+            <div class="row mx-0 mt-4 mb-3 p-0">
+                <label class="p-0" for="cliente--nome">Seu nome</label>
+                <input placeholder="Ex: João da Silva" class="form-control" id="cliente--nome" name="cliente--nome"
+                    type="text">
+            </div>
+
+            <div class="row mx-0 mt-4 mb-3 p-0">
+                <label class="p-0" for="cliente--email">Seu e-mail</label>
+                <input placeholder="Ex: João.Silva@mail.com" class="form-control" id="cliente--email"
+                    name="cliente--email" type="email">
+            </div>
+
+            <div class="row mx-0 mt-4 mb-3 p-0">
+                <label class="p-0" for="cliente--telefone">Seu telefone</label>
+                <input placeholder="Ex: (11)99999-9999" class="form-control" id="cliente--telefone"
+                    name="cliente--telefone" type="text">
+            </div>
+
+            <div class="row mx-0 mt-4 mb-3 p-0">
+                <label class="p-0" for="cliente--telefone">data do evento</label>
+                <input class="form-control" id="cliente--telefone" name="cliente--telefone" type="date">
+            </div>
+
+            <!-- informações do prato -->
+            <h3 class="mt-5 text-center">Informações do Prato</h3>
+            <div class="row mx-0 mt-4 mb-3 p-0">
+                <label class="p-0" for="receita--nome">Nome do prato</label>
+                <input class="form-control" id="receita--nome" name="receita--nome" type="text">
+            </div>
+            <div class="row mx-0 p-0">
+                <label class="p-0" for="prato--quantidade--valor">Quantidade necessária</label>
+                <div class="col-4 p-0 pe-1">
+                    <input class="form-control" id="prato--quantidade--valor" name="prato--quantidade--valor"
+                        type="number">
+                </div>
+                <div class="col-8 p-0">
+                    <select class="form-select" id="prato--quantidade--unidade" name="prato--quantidade--unidade">
+                        <option selected>quilo(s)</option>
+                        <option value="1">unidade(s)</option>
+                    </select>
+                </div>
+            </div>
+            <!-- informações do prato -->
+            <!-- ingrediente  -->
+            <h3 class="mt-5 text-center">Ingredientes</h3>
+            <div class="row  mx-0 my-3 p-0">
+                <label class="p-0" for="ingrediente--nome--1">Ingrediente 1</label>
+                <input placeholder="Nome do Ingrediente" class="form-control mb-3" id="ingrediente--nome--1"
+                    name="ingrediente--nome--1" type="text">
+                <label class="p-0" for="ingrediente--quantidade--valor--1">Quantidade necessária</label>
+                <div class="col-4 p-0 pe-1">
+                    <input placeholder="10" class="form-control col-6" id="ingrediente--quantidade--valor--1"
+                        name="ingrediente--quantidade--valor" type="number">
+                </div>
+                <div class="col-8 p-0">
+                    <select class="form-select" aria-label="unidade de medida" id="ingrediente--quantidade--unidade--1"
+                        name="ingrediente--quantidade--unidade">
+                        <option selected>gramas</option>
+                        <option value="1">colhere(s) de sopa</option>
+                        <option value="2">colhere(s) de chá</option>
+                        <option value="3">xicará(s)</option>
+                    </select>
+                </div>
+            </div>
+            <!-- ingrediente  -->
+            <button class="offset-6 col-6 btn btn-secondary">Novo ingrediente</button>
+            <!-- talvez o botão acima deva ocupar o espaço de um ingrediente em casos especificos  -->
+            <h3 class="mt-5 text-center">Instruções de preparo</h3>
+            <!-- instrução de preparo -->
+            <div class="row mx-0 my-3 p-0">
+                <label for="receita--instrucao--1" class="p-0">Instrução 1</label>
+                <textarea class="form-control" name="receita--instrucao--1" id="receita--instrucao--1" cols="30"
+                    rows="8"></textarea>
+            </div>
+            <!-- instrução de preparo -->
+            <button class="offset-6 col-6 btn btn-secondary">Nova instrução</button>
+            <!-- mesma coisa sobre esse botão  -->
+
+            <button class="btn btn-success mt-4 mb-2">Solicitar</button>
+
+
+        </form>
+    </main>
+    <footer>
+        <p class="text-center">Gabriel Rodrigues Fausto © 2021</p>
+    </footer>
+</body>
+
+</html>
