@@ -69,29 +69,61 @@
             </div>
             <!-- informações do prato -->
             <!-- ingrediente  -->
-            <h3 class="mt-5 text-center">Ingredientes</h3>
+            <h3 class="mt-5 text-center">Adicione os Ingredientes</h3>
             <div class="row  mx-0 my-3 p-0">
-                <label class="p-0" for="ingrediente--nome--1">Ingrediente 1</label>
-                <input placeholder="Nome do Ingrediente" class="form-control mb-3" id="ingrediente--nome--1"
+                <label class="p-0" for="ingrediente--nome--1">Nome do ingrediente</label>
+                <input placeholder="Ex: Farinha" class="form-control mb-3" id="ingrediente--nome--1"
                     name="ingrediente--nome--1" type="text">
                 <label class="p-0" for="ingrediente--quantidade--valor--1">Quantidade necessária</label>
                 <div class="col-4 p-0 pe-1">
-                    <input placeholder="10" class="form-control col-6" id="ingrediente--quantidade--valor--1"
+                    <input placeholder="Ex: 10" class="form-control col-6" id="ingrediente--quantidade--valor--1"
                         name="ingrediente--quantidade--valor" type="number">
                 </div>
                 <div class="col-8 p-0">
                     <select class="form-select" aria-label="unidade de medida" id="ingrediente--quantidade--unidade--1"
                         name="ingrediente--quantidade--unidade">
-                        <option selected>gramas</option>
+                        <option selected>grama(s)</option>
                         <option value="1">colhere(s) de sopa</option>
                         <option value="2">colhere(s) de chá</option>
                         <option value="3">xicará(s)</option>
+                        <option value="3">pitada(s)</option>
+                        <option value="3">ml</option>
                     </select>
                 </div>
             </div>
             <!-- ingrediente  -->
-            <button class="offset-6 col-6 btn btn-secondary">Novo ingrediente</button>
+            <button class="offset-6 col-6 btn btn-secondary">Adicionar</button>
             <!-- talvez o botão acima deva ocupar o espaço de um ingrediente em casos especificos  -->
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th>Ingrediente</th>
+                        <th>Quantidade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Farinha</td>
+                        <td>300 grama(s)</td>
+                    </tr>
+                    <tr>
+                        <td>Leite</td>
+                        <td>200 ml</td>
+                    </tr>
+                    <tr>
+                        <td>Azeite</td>
+                        <td>1 colhere(s) de sopa</td>
+                    </tr>
+                    <tr>
+                        <td>Sal</td>
+                        <td>2 Pitada(s)</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
             <h3 class="mt-5 text-center">Instruções de preparo</h3>
             <!-- instrução de preparo -->
             <div class="row mx-0 my-3 p-0">
