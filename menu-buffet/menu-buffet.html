@@ -6,6 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu | Padaria do Gabs</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./styles/flex--util.css">
     <link rel="stylesheet" href="./styles/global.css">
     <link rel="stylesheet" href="./styles/cabecalho.css">
@@ -20,54 +26,66 @@
 </head>
 
 <body>
-    <header class="cabecalho flexrow--evenly--center">
-        <h3>Padoca do Gabs</h3>
-        <nav class="cabecalho--navegacao">
-            <ul class="cabecalho--navegacao--lista flexrow--between--center">
-                <li>
-                    <a href="#">Pães do dia</a>
+    <header id="cabecalho" class="p-2">
+        <div class="container d-flex justify-content-between align-items-center flex-wrap navbar-expand-md">
+            <a class="cabecalho--titulo d-none d-md-block text-center fs-3 py-0 ps-2 order-0" href="#">Padoca do
+                Gabs</a>
+            <button class="navbar-toggler" id="cabecalho--botao--nav" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+                <a class="cabecalho--titulo text-center fs-3 py-0 order-0 d-flex align-items-center" href="#">Padoca do
+                    Gabs
+                    <i class="bi bi-caret-down"></i>
+                </a>
+            </button>
+            <figure class="cacecalho--carrinho m-0 p-0 d-flex align-items-end order-lg-2">
+                <img src="./img/Cesta-de-pao.png" alt="Carrinho de compras">
+                <figcaption class="d-flex justify-content-center align-items-center">3</figcaption>
+            </figure>
+            <ul id="navbarNav"
+                class="cacecalho--navegacao collapse navbar-collapse col-12 my-md-0 ps-md-0 col-lg-auto ps-lg-4 order-lg-1">
+                <li class="nav-item col-12 text-md-start col-md-3 col-lg-auto">
+                    <a class="cabecalho--navegacao--item nav-link" href="#">Pães do dia</a>
                 </li>
-                <li>
-                    <a href="#">Nossa padoca</a>
+                <li class="nav-item col-12 text-md-start col-md-3 col-lg-auto">
+                    <a class="cabecalho--navegacao--item nav-link" href="#">Nossa padoca</a>
                 </li>
-                <li>
-                    <a href="#">Entre em contato</a>
+                <li class="nav-item col-12 text-md-start col-md-3 col-lg-auto">
+                    <a class="cabecalho--navegacao--item nav-link" href="#">Entre em contato</a>
                 </li>
-                <li>
-                    <a class="nav--pagina--atual" href="#">Menu para Eventos</a>
-                </li>
-                <li>
-                    <figure class="cacecalho--navegacao--carrinho">
-                        <img src="./img/Cesta-de-pao.png" alt="Carrinho de compras">
-                        <figcaption class="flexrow--center--center">3</figcaption>
-                    </figure>
+                <li class="nav-item col-12 text-md-start col-md-3 col-lg-auto">
+                    <a class="cabecalho--navegacao--item nav-link" href="#">Menu de Eventos</a>
                 </li>
             </ul>
-        </nav>
+        </div>
     </header>
-    <section class="apresentacao flexrow--between--stretch" id="apresentacao">
-        <article class="apresentacao--texto flexrow--center--center">
-            <p>Seja um encontro de negócios ou um casamento, uma comida que não
-                pode faltar na mesa é o pão, por isso elaboramos um cardápio
-                personalizado, onde exploramos formas e sabores de pães de todas
-                as partes do mundo para que você consiga surpreender seus
-                convidados e aproveitar
-                <span class="letra-laranja">momentos inesquecíveis</span>.
-            </p>
-        </article>
-        <div class="apresentacao--imagem"></div>
-    </section>
-    <main>
-        <div class="menu">
-            <div class="menu--titulo flexrow--between--center">
-                <h1><i>menu</i></h1>
-                <img src="./img/cesta-pao-rustica.png" alt="cesta de pão">
+    <div class="container-fluid p-0 container-xxl">
+        <section class="apresentacao row" id="apresentacao">
+            <article class="apresentacao--texto col-12 col-lg-6 text-center">
+                <p class="fs-2 p-4 p-xl-5">Seja um encontro de negócios ou um casamento, uma comida que não
+                    pode faltar na mesa é o pão, por isso elaboramos um cardápio
+                    personalizado, onde exploramos formas e sabores de pães de todas
+                    as partes do mundo para que você consiga surpreender seus
+                    convidados e aproveitar
+                    <span class="letra-laranja">momentos inesquecíveis</span>.
+                </p>
+            </article>
+            <div class="d-none d-md-flex col-lg-6 apresentacao--imagem"></div>
+        </section>
+    </div>
+    <main class="container">
+        <div class="menu col-xl-10 col-xxl-9 m-auto">
+            <div class="menu--titulo row align-items-end">
+                <div class="p-0 m-0 ps-3 ps-lg-5 col">
+                    <h1 class="m-0 ms-4 ms-lg-5 ps-sm-5 display-1"><i>menu</i></h1>
+                </div>
+
+                <img class="d-none d-lg-flex col-lg-3" src="./img/cesta-pao-rustica.png" alt="cesta de pão">
             </div>
-            <hr />
+            <hr class="m-5" />
             <section id="entrada" class="menu--entrada">
-                <h2><span>ENTRADAS</span></h2>
-                <div class="flexrow--between--center">
-                    <ul class="menu--entrada--lista">
+                <h2 class="display-6 pb-4"><span class="px-4">ENTRADAS</span></h2>
+                <div class="flexrow--between--center row">
+                    <ul class="menu--entrada--lista fs-3 text-center ps-sm-5 text-sm-start col-lg-5">
                         <li>QUEIJO QUENTE</li>
                         <li>ROSQUINHA</li>
                         <li>PÃO COM MAIONESE</li>
@@ -75,8 +93,8 @@
                         <li>CAFEZINHO DUPLO</li>
                         <li>CAFEZINHO TRIPLO</li>
                     </ul>
-                    <img class="menu--entrada--img" src="./img/pao-desenho-2.png" alt="pão">
-                    <ul class="menu--entrada--lista">
+                    <img class="menu--entrada--img mx-auto my-3 col-lg-2" src="./img/pao-desenho-2.png" alt="pão">
+                    <ul class="menu--entrada--lista fs-3 text-center pe-sm-5 text-sm-end col-lg-5">
                         <li>PÃO COM MANTEIGA</li>
                         <li>TORRADA COM GELEIA</li>
                         <li>OMELETE NO PÃO</li>
@@ -86,39 +104,40 @@
                     </ul>
                 </div>
             </section>
-            <div class="menu--container--prato-principal flexrow--between--stretch">
-                <section id="prato-principal" class="menu--prato-principal flexcol--between--center">
-                    <div class="menu--prato-principal--titulo flexrow--center--center">
-                        <img src="img/trigo-vertical.png" alt="trigo">
-                        <h2><span>PRATO PRINCIPAL</span></h2>
-                        <img src="img/trigo-vertical.png" alt="trigo">
+            <div class="row m-0">
+                <section id="prato-principal" class="p-3 p-sm-4 py-lg-5 col-12 col-lg-7">
+                    <div class="flexrow--center--center">
+                        <img id="imagem--trigo-1" src="img/trigo-vertical.png" alt="trigo">
+                        <h2 class="display-6 mx-3 pt-3"><span id="prato-principal--titulo">PRATO PRINCIPAL</span></h2>
+                        <img id="imagem--trigo-2" src="img/trigo-vertical.png" alt="trigo">
                     </div>
-                    <ul class="menu--prato-principal--lista flexcol--around--center">
-                        <li>SOPA COM PÃO</li>
-                        <li>CALDO VERDE E PÃO</li>
-                        <li>HAMBURGUER</li>
-                        <li>MIOJO COM PÃO</li>
-                        <li>MERCADÃO</li>
-                        <li>HAMBURGUER DUPLO</li>
+                    <ul class="mb-0 fs-1 text-center">
+                        <li class="mt-3 mt-sm-2 mt-md-1 mt-lg-3">SOPA COM PÃO</li>
+                        <li class="mt-3 mt-sm-2 mt-md-1 mt-lg-3">CALDO VERDE E PÃO</li>
+                        <li class="mt-3 mt-sm-2 mt-md-1 mt-lg-3">HAMBURGUER</li>
+                        <li class="mt-3 mt-sm-2 mt-md-1 mt-lg-3">MIOJO COM PÃO</li>
+                        <li class="mt-3 mt-sm-2 mt-md-1 mt-lg-3">MERCADÃO</li>
+                        <li class="mt-3 mt-sm-2 mt-md-1 mt-lg-3">HAMBURGUER DUPLO</li>
                     </ul>
                 </section>
-                <img src="./img/hamburg.jpg" alt="hamburguer com batata">
+                <img id="imagem--hamburguer" class="d-none p-0 d-lg-block col-lg-5" src="./img/hamburg.jpg"
+                    alt="hamburguer com batata">
             </div>
-            <div class="menu--container--inferior flexrow--between--stretch">
-                <section id="sobremesa" class="menu--sobremesa flexcol--between--center">
-                    <h2><span>SOBREMESAS</span></h2>
-                    <ul class="menu--sobremesa--lista flexcol--between--center">
-                        <li>SONHO</li>
-                        <li>DONUTS</li>
-                        <li>MIL FOLHAS</li>
-                        <li>BEIJINHO</li>
-                        <li>BOLO</li>
-                        <li>BRIGADEIRO</li>
+            <div class="row p-4">
+                <section id="sobremesa" class="text-center col-lg-6">
+                    <h2 class="sobremesa-titulo display-6 "><span>SOBREMESAS</span></h2>
+                    <ul class="menu--sobremesa--lista fs-2 mb-0">
+                        <li class="mt-3 mt-sm-2 mt-md-1">SONHO</li>
+                        <li class="mt-3 mt-sm-2 mt-md-1">DONUTS</li>
+                        <li class="mt-3 mt-sm-2 mt-md-1">MIL FOLHAS</li>
+                        <li class="mt-3 mt-sm-2 mt-md-1">BEIJINHO</li>
+                        <li class="mt-3 mt-sm-2 mt-md-1">BOLO</li>
+                        <li class="mt-3 mt-sm-2 mt-md-1">BRIGADEIRO</li>
                     </ul>
                 </section>
-                <section class="menu--paes flexcol--between--center">
-                    <h2><span>PÃES</span></h2>
-                    <p class="menu--paes--lista flexrow--center--center">
+                <section class="menu--paes text-center text-white p-3 col-lg-6">
+                    <h2 class="display-6"><span>PÃES</span></h2>
+                    <p class="menu--paes--lista fs-4">
                         pão francês ~ pão sírio ~ pão de forma ~ pão 7 grãos
                         ~ croissant ~ marraqueta ~ ciabatta ~
                         focaccia ~ pão de centeio ~ brioche ~ baguete
@@ -137,7 +156,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
+                    <tr class="row">
                         <td class="combo--container combo--um">
                             <div class="flexcol--between--center">
                                 <h3>COMBO GRIF</h3>
@@ -175,7 +194,7 @@
         <p>Gabriel Rodrigues Fausto © 2021</p>
         <img class="rodape--imagem" src="./img/Pao.jpg" alt="pão">
     </footer>
-    <aside>
+    <aside class="d-none">
         <nav class="aside--navegacao">
             <div class="aside--navegacao--lista">
                 <p><a href="#apresentacao">apresentação</span></a></p>

@@ -1,63 +1,51 @@
-.cabecalho {
-    margin: 0 auto;
-    
-    height: 55px;
-    min-width: 1440px;
-
+#cabecalho {
     background: linear-gradient(0deg, rgba(89, 56, 40, 0.85), rgba(89, 56, 40, 0.85)), url(../img/taboa-de-pao.jpg); 
     background-position: center; 
     background-size: cover;
 }
 
-.cabecalho h3 {
-    margin: 0;
-
+.cabecalho--titulo {
     font-family: 'Pacifico';
-    font-size: 30px;
     font-weight: 400;
     color: #FFF5D4;
+    text-decoration: none;
 }
 
-.cabecalho--navegacao--lista {
-    margin: 0;
-
-    width: 700px;
+.cabecalho--titulo:hover, .cabecalho--navegacao--item:hover, .cabecalho--navegacao--item:focus {
+    color: white;
 }
 
-.cabecalho--navegacao--lista a {
-    font-family: 'Niconne';
-    font-size: 24px;
-    color: #FFF5D4;
+.cacecalho--carrinho img {
+    height: 45px;
 }
 
-.cabecalho--navegacao--lista a.nav--pagina--atual {
-    color: #FF9090;
-}
-
-.cacecalho--navegacao--carrinho {
-    margin: 0;
-    padding: 0;
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-
-    cursor: pointer;
-}
-
-.cacecalho--navegacao--carrinho img {
-    height: 52px;
-}
-
-.cacecalho--navegacao--carrinho figcaption {
+.cacecalho--carrinho figcaption {
     border-radius: 13px;
     border: 1px solid rgba(130, 130, 130, 0.6);
 
-    width: 27px;
-    height: 27px;
+    width: 23px;
+    height: 23px;
     background:rgba(255, 250, 241, 0.2);
 
     font-family: 'Roboto';
     font-size: 16px;
     color: rgba(255, 250, 241, 0.9);
+}
+
+#cabecalho--botao--nav > i{
+    color: #FFF5D4;
+}
+
+#cabecalho--botao--nav:focus {
+    box-shadow: none;
+}
+
+.cacecalho--navegacao {
+    list-style: none;
+}
+
+.cabecalho--navegacao--item {
+    font-family: 'Niconne';
+    font-size: 20px;
+    color: #FFF5D4;
 }

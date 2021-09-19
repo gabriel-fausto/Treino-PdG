@@ -1,23 +1,10 @@
-.menu--container--inferior {
-    margin: 32px 30px;
-
-    height: 430px;
-}
-
-.menu--container--inferior section {
-    width: 460px;
-}
-
-.menu--sobremesa {
+.menu--sobremesa--lista {
+    font-family: 'Cinzel';
     color: #404040;
 }
 
-.menu--sobremesa--lista {
-    height: 100%;
-}
-
-.menu--sobremesa--lista li {
-    font-size: 32px;
+.sobremesa-titulo {
+    color: #404040;
 }
 
 .menu--paes {
@@ -27,8 +14,6 @@
     background: linear-gradient(0deg, rgba(64, 64, 64, 0.75), rgba(64, 64, 64, 0.75)), url(../img/paes-buffet-bkg.jpg);
     background-position: center; 
     background-size: cover;
-
-    color: white;
 }
 
 .menu--paes h2 > span {
@@ -36,12 +21,6 @@
 }
 
 .menu--paes--lista {
-    margin-bottom: 28px;
-
-    height: 100%;
-    width: 70%;
-    
-    font-size: 24px;
-    text-align: justify;
+    font-family: 'Cinzel';
     text-transform: uppercase;
 }

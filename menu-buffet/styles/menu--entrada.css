@@ -1,14 +1,6 @@
 .menu--entrada {
-    margin: 0 30px 30px;
-    padding: 0 67px;
-
     font-family: 'Cinzel';
     color: #404040;
-}
-
-.menu--entrada h2 {
-    margin: 0;
-    padding: 0;
 }
 
 .menu--entrada--img {
@@ -16,8 +8,5 @@
 }
 
 .menu--entrada--lista li {
-    margin: 0;
-    
-    font-size: 28px;
     font-weight: 400;
 }
