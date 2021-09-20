@@ -10,7 +10,7 @@
     border:1px solid #404040;
     border-radius: 16px;
 
-    background: linear-gradient(0deg, rgba(64, 64, 64, 0.75), rgba(64, 64, 64, 0.75)), url(../img/paes-buffet-bkg.jpg);
+    background: linear-gradient(0deg, rgba(64,64,64,0.75), rgba(64,64,64,0.75)), url(../img/paes-buffet-bkg.jpg);
     background-position: center; 
     background-size: cover;
 }

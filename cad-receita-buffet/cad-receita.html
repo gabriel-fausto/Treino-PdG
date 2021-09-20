@@ -43,7 +43,8 @@
                     <a class="cabecalho--navegacao--item nav-link" href="#">Entre em contato</a>
                 </li>
                 <li class="nav-item col-12 text-md-start col-md-3 col-lg-auto">
-                    <a class="cabecalho--navegacao--item nav-link" href="#">Menu de Eventos</a>
+                    <a class="cabecalho--navegacao--item nav-link" href="../menu-buffet/menu-buffet.html">Menu de
+                        Eventos</a>
                 </li>
             </ul>
         </div>
@@ -60,8 +61,8 @@
         <form class="row form-control px-3 m-0" action="">
             <h1 class="mt-3 text-center ff-cinzel">Solicite seu prato personalizado</h1>
             <div class="row p-0 m-0">
-                <div class="row p-0 m-0 col-xl-6 px-xl-3">
-                    <h2 class="mt-5 text-center">Informações para contato</h2>
+                <fieldset id="informacoes-contato" class="row p-0 m-0 col-xl-6 px-xl-3">
+                    <legend class="mt-5 text-center fs-2">Informações para contato</legend>
                     <div class="col-md-6 mx-0 mt-4 mb-3 p-0 pe-md-2">
                         <label class="p-0" for="cliente--nome">Seu nome</label>
                         <input placeholder="Ex: João da Silva" class="form-control" id="cliente--nome"
@@ -84,10 +85,10 @@
                         <label class="p-0" for="cliente--telefone">data do evento</label>
                         <input class="form-control" id="cliente--telefone" name="cliente--telefone" type="date">
                     </div>
-                </div>
+                </fieldset>
                 <!-- informações do prato -->
-                <div class="row p-0 m-0 col-xl-6 px-xl-3">
-                    <h2 class="mt-5 text-center">Informações do Prato</h2>
+                <fieldset class="row p-0 m-0 col-xl-6 px-xl-3">
+                    <legend class="mt-5 text-center fs-2">Informações do Prato</legend>
                     <div class="mx-0 mt-4 mb-3 p-0 col-lg-6 pe-lg-2 col-xl-12 pe-xl-0">
                         <label class="p-0" for="receita--nome">Nome do prato</label>
                         <input placeholder="Ex: Pão de queijo" class="form-control" id="receita--nome"
@@ -107,7 +108,7 @@
                             </select>
                         </div>
                     </div>
-                </div>
+                </fieldset>
             </div>
 
             <div class="offset-4 col-xl-4 d-none d-xl-block my-xl-4">
@@ -116,8 +117,8 @@
 
             <div class="row p-0 m-0">
                 <!-- ingrediente  -->
-                <div class="row m-0 p-0 col-xl-6 px-xl-3 h-100">
-                    <h2 class="mt-5 text-center mt-xl-0">Adicione os Ingredientes</h2>
+                <fieldset class="row m-0 p-0 col-xl-6 px-xl-3 h-100">
+                    <legend class="mt-5 text-center mt-xl-0 fs-2">Adicione os Ingredientes</legend>
                     <div class="mx-0 mt-4 mb-3 p-0 col-lg-6 pe-lg-2 col-xl-12 pe-xl-0">
                         <label class="p-0" for="ingrediente--nome">Nome do ingrediente</label>
                         <input placeholder="Ex: Farinha" class="form-control" id="ingrediente--nome"
@@ -147,8 +148,8 @@
                         class="btn btn-secondary offset-6 col-6 mt-3 offset-md-8 col-md-4 offset-lg-9 col-lg-3 mt-lg-2">
                         Adicionar
                     </button>
-                </div>
-                <div class="row m-0 p-0 col-xl-6 px-xl-3">
+                </fieldset>
+                <fieldset class="row m-0 p-0 col-xl-6 px-xl-3">
                     <table class="mt-4 table table-striped">
                         <thead>
                             <tr>
@@ -193,21 +194,22 @@
                             </tr>
                         </tbody>
                     </table>
-                </div>
+                </fieldset>
             </div>
 
             <div class="offset-4 col-xl-4 d-none d-xl-block my-xl-4">
                 <hr>
             </div>
 
-            <h3 class="mt-5 text-center mt-xl-0">Instruções de preparo</h3>
-            <!-- instrução de preparo -->
-            <div class="row mx-0 my-3 p-0">
-                <textarea class="form-control" name="receita--instrucao--1" id="receita--instrucao--1" cols="30"
-                    rows="8"></textarea>
-            </div>
-
-            <button class="btn btn-success mt-4 mb-2">Solicitar</button>
+            <fieldset>
+                <legend class="mt-5 text-center mt-xl-0 fs-2">Instruções de preparo</legend>
+                <!-- instrução de preparo -->
+                <div class="row mx-0 my-3 p-0">
+                    <textarea class="form-control" name="receita--instrucao--1" id="receita--instrucao--1" cols="30"
+                        rows="8"></textarea>
+                </div>
+            </fieldset>
+            <input type="submit" name="solicitar" class="btn btn-success mt-4 mb-2" value="Solicitar" />
         </form>
     </main>
     <footer class="rodape container-fluid p-0 mt-3">

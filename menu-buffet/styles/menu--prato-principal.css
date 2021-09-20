@@ -1,5 +1,5 @@
 #prato-principal {
-    background-color: rgba(87, 52, 52, 1);
+    background-color: rgba(87,52,52,1);
 
     font-family: 'Cinzel';
     color: #E8BF83;
@@ -9,7 +9,8 @@
     object-fit: cover;
 }
 
-#imagem--trigo-1, #imagem--trigo-2 {
+#imagem--trigo-1, 
+#imagem--trigo-2 {
     height: 60px;
 }
 

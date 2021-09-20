@@ -20,7 +20,8 @@
     font-weight: 700;
 }
 
-.combo--container p, #footer--cad-receita {
+.combo--container p, 
+#footer--cad-receita {
     font-family: 'Cinzel';
 }
 

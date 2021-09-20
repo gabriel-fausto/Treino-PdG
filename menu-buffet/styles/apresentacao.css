@@ -9,7 +9,7 @@
 }
 
 .apresentacao--imagem {
-    background: linear-gradient(90deg, #181818 0%, rgba(24, 24, 24, 0.1) 100%), url(../img/cesta-buffet-bkg.jpg);
+    background: linear-gradient(90deg, #181818 0%, rgba(24,24,24,0.1) 100%), url(../img/cesta-buffet-bkg.jpg);
     background-size: cover;
 }
 
