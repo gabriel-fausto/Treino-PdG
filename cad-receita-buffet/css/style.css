@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Niconne&family=Pacifico&family=Cinzel:wght@400;700&family=Roboto&family=Playfair+Display+SC:ital,wght@0,700;1,400&display=swap');
-   
+
+.ff-cinzel {
+    font-family: 'Cinzel';
+}
 
 #cabecalho {
     background: linear-gradient(0deg, rgba(89, 56, 40, 0.85), rgba(89, 56, 40, 0.85)), url(../img/taboa-de-pao.jpg); 
@@ -66,3 +69,4 @@
 .rodape--pao:first-child {
     transform: scaleX(-1);
 }
+
