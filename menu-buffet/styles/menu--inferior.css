@@ -1,9 +1,8 @@
-.menu--sobremesa--lista {
+.menu--sobremesa--lista, .menu--paes--lista {
     font-family: 'Cinzel';
-    color: #404040;
 }
 
-.sobremesa-titulo {
+.sobremesa-titulo, .menu--sobremesa--lista {
     color: #404040;
 }
 
@@ -21,6 +20,5 @@
 }
 
 .menu--paes--lista {
-    font-family: 'Cinzel';
     text-transform: uppercase;
 }
