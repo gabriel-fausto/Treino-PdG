@@ -1,0 +1,1322 @@
+[
+    {
+        "nomePrato": "receita-1",
+        "categoriaPrato": "prato-principal",
+        "disponivel": true,
+        "porcoes": "15",
+        "lactose": true,
+        "gluten": true,
+        "avaliacoes": [
+            {
+                "estrelas": 5,
+                "autor": "autor-1",
+                "comentario": "comentario-1"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-2",
+                "comentario": "comentario-2"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-3",
+                "comentario": "comentario-3"
+            },
+            {
+                "estrelas": 5,
+                "autor": "autor-4",
+                "comentario": "comentario-4"
+            }
+        ]
+    },
+    {
+        "nomePrato": "receita-2",
+        "categoriaPrato": "prato-principal",
+        "disponivel": true,
+        "porcoes": "15",
+        "lactose": true,
+        "gluten": true,
+        "avaliacoes": [
+            {
+                "estrelas": 5,
+                "autor": "autor-1",
+                "comentario": "comentario-1"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-2",
+                "comentario": "comentario-2"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-3",
+                "comentario": "comentario-3"
+            },
+            {
+                "estrelas": 5,
+                "autor": "autor-4",
+                "comentario": "comentario-4"
+            }
+        ]
+    },
+    {
+        "nomePrato": "receita-3",
+        "categoriaPrato": "prato-principal",
+        "disponivel": true,
+        "porcoes": "15",
+        "lactose": true,
+        "gluten": true,
+        "avaliacoes": [
+            {
+                "estrelas": 5,
+                "autor": "autor-1",
+                "comentario": "comentario-1"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-2",
+                "comentario": "comentario-2"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-3",
+                "comentario": "comentario-3"
+            },
+            {
+                "estrelas": 5,
+                "autor": "autor-4",
+                "comentario": "comentario-4"
+            }
+        ]
+    },
+    {
+        "nomePrato": "receita-4",
+        "categoriaPrato": "prato-principal",
+        "disponivel": true,
+        "porcoes": "15",
+        "lactose": true,
+        "gluten": true,
+        "avaliacoes": [
+            {
+                "estrelas": 5,
+                "autor": "autor-1",
+                "comentario": "comentario-1"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-2",
+                "comentario": "comentario-2"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-3",
+                "comentario": "comentario-3"
+            },
+            {
+                "estrelas": 5,
+                "autor": "autor-4",
+                "comentario": "comentario-4"
+            }
+        ]
+    },
+    {
+        "nomePrato": "receita-5",
+        "categoriaPrato": "prato-principal",
+        "disponivel": true,
+        "porcoes": "15",
+        "lactose": true,
+        "gluten": true,
+        "avaliacoes": [
+            {
+                "estrelas": 5,
+                "autor": "autor-1",
+                "comentario": "comentario-1"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-2",
+                "comentario": "comentario-2"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-3",
+                "comentario": "comentario-3"
+            },
+            {
+                "estrelas": 5,
+                "autor": "autor-4",
+                "comentario": "comentario-4"
+            }
+        ]
+    },
+    {
+        "nomePrato": "receita-6",
+        "categoriaPrato": "prato-principal",
+        "disponivel": false,
+        "porcoes": "15",
+        "lactose": true,
+        "gluten": true,
+        "avaliacoes": [
+            {
+                "estrelas": 5,
+                "autor": "autor-1",
+                "comentario": "comentario-1"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-2",
+                "comentario": "comentario-2"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-3",
+                "comentario": "comentario-3"
+            },
+            {
+                "estrelas": 5,
+                "autor": "autor-4",
+                "comentario": "comentario-4"
+            }
+        ]
+    },
+    {
+        "nomePrato": "receita-7",
+        "categoriaPrato": "prato-principal",
+        "disponivel": true,
+        "porcoes": "15",
+        "lactose": true,
+        "gluten": true,
+        "avaliacoes": [
+            {
+                "estrelas": 5,
+                "autor": "autor-1",
+                "comentario": "comentario-1"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-2",
+                "comentario": "comentario-2"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-3",
+                "comentario": "comentario-3"
+            },
+            {
+                "estrelas": 5,
+                "autor": "autor-4",
+                "comentario": "comentario-4"
+            }
+        ]
+    },
+    {
+        "nomePrato": "receita-8",
+        "categoriaPrato": "entrada",
+        "disponivel": true,
+        "porcoes": "15",
+        "lactose": true,
+        "gluten": true,
+        "avaliacoes": [
+            {
+                "estrelas": 5,
+                "autor": "autor-1",
+                "comentario": "comentario-1"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-2",
+                "comentario": "comentario-2"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-3",
+                "comentario": "comentario-3"
+            },
+            {
+                "estrelas": 5,
+                "autor": "autor-4",
+                "comentario": "comentario-4"
+            }
+        ]
+    },
+    {
+        "nomePrato": "receita-9",
+        "categoriaPrato": "entrada",
+        "disponivel": true,
+        "porcoes": "15",
+        "lactose": true,
+        "gluten": true,
+        "avaliacoes": [
+            {
+                "estrelas": 5,
+                "autor": "autor-1",
+                "comentario": "comentario-1"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-2",
+                "comentario": "comentario-2"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-3",
+                "comentario": "comentario-3"
+            },
+            {
+                "estrelas": 5,
+                "autor": "autor-4",
+                "comentario": "comentario-4"
+            }
+        ]
+    },
+    {
+        "nomePrato": "receita-10",
+        "categoriaPrato": "entrada",
+        "disponivel": true,
+        "porcoes": "15",
+        "lactose": true,
+        "gluten": true,
+        "avaliacoes": [
+            {
+                "estrelas": 5,
+                "autor": "autor-1",
+                "comentario": "comentario-1"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-2",
+                "comentario": "comentario-2"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-3",
+                "comentario": "comentario-3"
+            },
+            {
+                "estrelas": 5,
+                "autor": "autor-4",
+                "comentario": "comentario-4"
+            }
+        ]
+    },
+    {
+        "nomePrato": "receita-11",
+        "categoriaPrato": "entrada",
+        "disponivel": true,
+        "porcoes": "15",
+        "lactose": true,
+        "gluten": true,
+        "avaliacoes": [
+            {
+                "estrelas": 5,
+                "autor": "autor-1",
+                "comentario": "comentario-1"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-2",
+                "comentario": "comentario-2"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-3",
+                "comentario": "comentario-3"
+            },
+            {
+                "estrelas": 5,
+                "autor": "autor-4",
+                "comentario": "comentario-4"
+            }
+        ]
+    },
+    {
+        "nomePrato": "receita-12",
+        "categoriaPrato": "entrada",
+        "disponivel": true,
+        "porcoes": "15",
+        "lactose": true,
+        "gluten": true,
+        "avaliacoes": [
+            {
+                "estrelas": 5,
+                "autor": "autor-1",
+                "comentario": "comentario-1"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-2",
+                "comentario": "comentario-2"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-3",
+                "comentario": "comentario-3"
+            },
+            {
+                "estrelas": 5,
+                "autor": "autor-4",
+                "comentario": "comentario-4"
+            }
+        ]
+    },
+    {
+        "nomePrato": "receita-13",
+        "categoriaPrato": "entrada",
+        "disponivel": true,
+        "porcoes": "15",
+        "lactose": true,
+        "gluten": true,
+        "avaliacoes": [
+            {
+                "estrelas": 5,
+                "autor": "autor-1",
+                "comentario": "comentario-1"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-2",
+                "comentario": "comentario-2"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-3",
+                "comentario": "comentario-3"
+            },
+            {
+                "estrelas": 5,
+                "autor": "autor-4",
+                "comentario": "comentario-4"
+            }
+        ]
+    },
+    {
+        "nomePrato": "receita-14",
+        "categoriaPrato": "entrada",
+        "disponivel": true,
+        "porcoes": "15",
+        "lactose": true,
+        "gluten": true,
+        "avaliacoes": [
+            {
+                "estrelas": 5,
+                "autor": "autor-1",
+                "comentario": "comentario-1"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-2",
+                "comentario": "comentario-2"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-3",
+                "comentario": "comentario-3"
+            },
+            {
+                "estrelas": 5,
+                "autor": "autor-4",
+                "comentario": "comentario-4"
+            }
+        ]
+    },
+    {
+        "nomePrato": "receita-15",
+        "categoriaPrato": "entrada",
+        "disponivel": true,
+        "porcoes": "15",
+        "lactose": true,
+        "gluten": true,
+        "avaliacoes": [
+            {
+                "estrelas": 5,
+                "autor": "autor-1",
+                "comentario": "comentario-1"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-2",
+                "comentario": "comentario-2"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-3",
+                "comentario": "comentario-3"
+            },
+            {
+                "estrelas": 5,
+                "autor": "autor-4",
+                "comentario": "comentario-4"
+            }
+        ]
+    },
+    {
+        "nomePrato": "receita-16",
+        "categoriaPrato": "entrada",
+        "disponivel": true,
+        "porcoes": "15",
+        "lactose": true,
+        "gluten": true,
+        "avaliacoes": [
+            {
+                "estrelas": 5,
+                "autor": "autor-1",
+                "comentario": "comentario-1"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-2",
+                "comentario": "comentario-2"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-3",
+                "comentario": "comentario-3"
+            },
+            {
+                "estrelas": 5,
+                "autor": "autor-4",
+                "comentario": "comentario-4"
+            }
+        ]
+    },
+    {
+        "nomePrato": "receita-17",
+        "categoriaPrato": "entrada",
+        "disponivel": true,
+        "porcoes": "15",
+        "lactose": true,
+        "gluten": true,
+        "avaliacoes": [
+            {
+                "estrelas": 5,
+                "autor": "autor-1",
+                "comentario": "comentario-1"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-2",
+                "comentario": "comentario-2"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-3",
+                "comentario": "comentario-3"
+            },
+            {
+                "estrelas": 5,
+                "autor": "autor-4",
+                "comentario": "comentario-4"
+            }
+        ]
+    },
+    {
+        "nomePrato": "receita-18",
+        "categoriaPrato": "entrada",
+        "disponivel": true,
+        "porcoes": "15",
+        "lactose": true,
+        "gluten": true,
+        "avaliacoes": [
+            {
+                "estrelas": 5,
+                "autor": "autor-1",
+                "comentario": "comentario-1"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-2",
+                "comentario": "comentario-2"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-3",
+                "comentario": "comentario-3"
+            },
+            {
+                "estrelas": 5,
+                "autor": "autor-4",
+                "comentario": "comentario-4"
+            }
+        ]
+    },
+    {
+        "nomePrato": "receita-19",
+        "categoriaPrato": "entrada",
+        "disponivel": true,
+        "porcoes": "15",
+        "lactose": true,
+        "gluten": true,
+        "avaliacoes": [
+            {
+                "estrelas": 5,
+                "autor": "autor-1",
+                "comentario": "comentario-1"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-2",
+                "comentario": "comentario-2"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-3",
+                "comentario": "comentario-3"
+            },
+            {
+                "estrelas": 5,
+                "autor": "autor-4",
+                "comentario": "comentario-4"
+            }
+        ]
+    },
+    {
+        "nomePrato": "receita-20",
+        "categoriaPrato": "entrada",
+        "disponivel": true,
+        "porcoes": "15",
+        "lactose": true,
+        "gluten": true,
+        "avaliacoes": [
+            {
+                "estrelas": 5,
+                "autor": "autor-1",
+                "comentario": "comentario-1"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-2",
+                "comentario": "comentario-2"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-3",
+                "comentario": "comentario-3"
+            },
+            {
+                "estrelas": 5,
+                "autor": "autor-4",
+                "comentario": "comentario-4"
+            }
+        ]
+    },
+    {
+        "nomePrato": "receita-21",
+        "categoriaPrato": "entrada",
+        "disponivel": false,
+        "porcoes": "15",
+        "lactose": true,
+        "gluten": true,
+        "avaliacoes": [
+            {
+                "estrelas": 5,
+                "autor": "autor-1",
+                "comentario": "comentario-1"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-2",
+                "comentario": "comentario-2"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-3",
+                "comentario": "comentario-3"
+            },
+            {
+                "estrelas": 5,
+                "autor": "autor-4",
+                "comentario": "comentario-4"
+            }
+        ]
+    },
+    {
+        "nomePrato": "receita-22",
+        "categoriaPrato": "entrada",
+        "disponivel": false,
+        "porcoes": "15",
+        "lactose": true,
+        "gluten": true,
+        "avaliacoes": [
+            {
+                "estrelas": 5,
+                "autor": "autor-1",
+                "comentario": "comentario-1"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-2",
+                "comentario": "comentario-2"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-3",
+                "comentario": "comentario-3"
+            },
+            {
+                "estrelas": 5,
+                "autor": "autor-4",
+                "comentario": "comentario-4"
+            }
+        ]
+    },
+    {
+        "nomePrato": "receita-23",
+        "categoriaPrato": "entrada",
+        "disponivel": false,
+        "porcoes": "15",
+        "lactose": true,
+        "gluten": true,
+        "avaliacoes": [
+            {
+                "estrelas": 5,
+                "autor": "autor-1",
+                "comentario": "comentario-1"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-2",
+                "comentario": "comentario-2"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-3",
+                "comentario": "comentario-3"
+            },
+            {
+                "estrelas": 5,
+                "autor": "autor-4",
+                "comentario": "comentario-4"
+            }
+        ]
+    },
+    {
+        "nomePrato": "receita-24",
+        "categoriaPrato": "entrada",
+        "disponivel": false,
+        "porcoes": "15",
+        "lactose": true,
+        "gluten": true,
+        "avaliacoes": [
+            {
+                "estrelas": 5,
+                "autor": "autor-1",
+                "comentario": "comentario-1"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-2",
+                "comentario": "comentario-2"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-3",
+                "comentario": "comentario-3"
+            },
+            {
+                "estrelas": 5,
+                "autor": "autor-4",
+                "comentario": "comentario-4"
+            }
+        ]
+    },
+    {
+        "nomePrato": "receita-25",
+        "categoriaPrato": "sobremesa",
+        "disponivel": true,
+        "porcoes": "15",
+        "lactose": true,
+        "gluten": true,
+        "avaliacoes": [
+            {
+                "estrelas": 5,
+                "autor": "autor-1",
+                "comentario": "comentario-1"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-2",
+                "comentario": "comentario-2"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-3",
+                "comentario": "comentario-3"
+            },
+            {
+                "estrelas": 5,
+                "autor": "autor-4",
+                "comentario": "comentario-4"
+            }
+        ]
+    },
+    {
+        "nomePrato": "receita-26",
+        "categoriaPrato": "sobremesa",
+        "disponivel": true,
+        "porcoes": "15",
+        "lactose": true,
+        "gluten": true,
+        "avaliacoes": [
+            {
+                "estrelas": 5,
+                "autor": "autor-1",
+                "comentario": "comentario-1"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-2",
+                "comentario": "comentario-2"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-3",
+                "comentario": "comentario-3"
+            },
+            {
+                "estrelas": 5,
+                "autor": "autor-4",
+                "comentario": "comentario-4"
+            }
+        ]
+    },
+    {
+        "nomePrato": "receita-27",
+        "categoriaPrato": "sobremesa",
+        "disponivel": true,
+        "porcoes": "15",
+        "lactose": true,
+        "gluten": true,
+        "avaliacoes": [
+            {
+                "estrelas": 5,
+                "autor": "autor-1",
+                "comentario": "comentario-1"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-2",
+                "comentario": "comentario-2"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-3",
+                "comentario": "comentario-3"
+            },
+            {
+                "estrelas": 5,
+                "autor": "autor-4",
+                "comentario": "comentario-4"
+            }
+        ]
+    },
+    {
+        "nomePrato": "receita-28",
+        "categoriaPrato": "sobremesa",
+        "disponivel": true,
+        "porcoes": "15",
+        "lactose": true,
+        "gluten": true,
+        "avaliacoes": [
+            {
+                "estrelas": 5,
+                "autor": "autor-1",
+                "comentario": "comentario-1"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-2",
+                "comentario": "comentario-2"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-3",
+                "comentario": "comentario-3"
+            },
+            {
+                "estrelas": 5,
+                "autor": "autor-4",
+                "comentario": "comentario-4"
+            }
+        ]
+    },
+    {
+        "nomePrato": "receita-29",
+        "categoriaPrato": "sobremesa",
+        "disponivel": true,
+        "porcoes": "15",
+        "lactose": true,
+        "gluten": true,
+        "avaliacoes": [
+            {
+                "estrelas": 5,
+                "autor": "autor-1",
+                "comentario": "comentario-1"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-2",
+                "comentario": "comentario-2"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-3",
+                "comentario": "comentario-3"
+            },
+            {
+                "estrelas": 5,
+                "autor": "autor-4",
+                "comentario": "comentario-4"
+            }
+        ]
+    },
+    {
+        "nomePrato": "receita-30",
+        "categoriaPrato": "sobremesa",
+        "disponivel": true,
+        "porcoes": "15",
+        "lactose": true,
+        "gluten": true,
+        "avaliacoes": [
+            {
+                "estrelas": 5,
+                "autor": "autor-1",
+                "comentario": "comentario-1"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-2",
+                "comentario": "comentario-2"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-3",
+                "comentario": "comentario-3"
+            },
+            {
+                "estrelas": 5,
+                "autor": "autor-4",
+                "comentario": "comentario-4"
+            }
+        ]
+    },
+    {
+        "nomePrato": "receita-31",
+        "categoriaPrato": "pao",
+        "disponivel": true,
+        "porcoes": "granel",
+        "lactose": true,
+        "gluten": true,
+        "avaliacoes": [
+            {
+                "estrelas": 5,
+                "autor": "autor-1",
+                "comentario": "comentario-1"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-2",
+                "comentario": "comentario-2"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-3",
+                "comentario": "comentario-3"
+            },
+            {
+                "estrelas": 5,
+                "autor": "autor-4",
+                "comentario": "comentario-4"
+            }
+        ]
+    },
+    {
+        "nomePrato": "receita-32",
+        "categoriaPrato": "pao",
+        "disponivel": true,
+        "porcoes": "granel",
+        "lactose": true,
+        "gluten": true,
+        "avaliacoes": [
+            {
+                "estrelas": 5,
+                "autor": "autor-1",
+                "comentario": "comentario-1"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-2",
+                "comentario": "comentario-2"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-3",
+                "comentario": "comentario-3"
+            },
+            {
+                "estrelas": 5,
+                "autor": "autor-4",
+                "comentario": "comentario-4"
+            }
+        ]
+    },
+    {
+        "nomePrato": "receita-33",
+        "categoriaPrato": "pao",
+        "disponivel": true,
+        "porcoes": "granel",
+        "lactose": true,
+        "gluten": true,
+        "avaliacoes": [
+            {
+                "estrelas": 5,
+                "autor": "autor-1",
+                "comentario": "comentario-1"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-2",
+                "comentario": "comentario-2"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-3",
+                "comentario": "comentario-3"
+            },
+            {
+                "estrelas": 5,
+                "autor": "autor-4",
+                "comentario": "comentario-4"
+            }
+        ]
+    },
+    {
+        "nomePrato": "receita-34",
+        "categoriaPrato": "pao",
+        "disponivel": true,
+        "porcoes": "granel",
+        "lactose": true,
+        "gluten": true,
+        "avaliacoes": [
+            {
+                "estrelas": 5,
+                "autor": "autor-1",
+                "comentario": "comentario-1"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-2",
+                "comentario": "comentario-2"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-3",
+                "comentario": "comentario-3"
+            },
+            {
+                "estrelas": 5,
+                "autor": "autor-4",
+                "comentario": "comentario-4"
+            }
+        ]
+    },
+    {
+        "nomePrato": "receita-35",
+        "categoriaPrato": "pao",
+        "disponivel": true,
+        "porcoes": "granel",
+        "lactose": true,
+        "gluten": true,
+        "avaliacoes": [
+            {
+                "estrelas": 5,
+                "autor": "autor-1",
+                "comentario": "comentario-1"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-2",
+                "comentario": "comentario-2"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-3",
+                "comentario": "comentario-3"
+            },
+            {
+                "estrelas": 5,
+                "autor": "autor-4",
+                "comentario": "comentario-4"
+            }
+        ]
+    },
+    {
+        "nomePrato": "receita-36",
+        "categoriaPrato": "pao",
+        "disponivel": true,
+        "porcoes": "granel",
+        "lactose": true,
+        "gluten": true,
+        "avaliacoes": [
+            {
+                "estrelas": 5,
+                "autor": "autor-1",
+                "comentario": "comentario-1"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-2",
+                "comentario": "comentario-2"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-3",
+                "comentario": "comentario-3"
+            },
+            {
+                "estrelas": 5,
+                "autor": "autor-4",
+                "comentario": "comentario-4"
+            }
+        ]
+    },
+    {
+        "nomePrato": "receita-37",
+        "categoriaPrato": "pao",
+        "disponivel": true,
+        "porcoes": "granel",
+        "lactose": true,
+        "gluten": true,
+        "avaliacoes": [
+            {
+                "estrelas": 5,
+                "autor": "autor-1",
+                "comentario": "comentario-1"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-2",
+                "comentario": "comentario-2"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-3",
+                "comentario": "comentario-3"
+            },
+            {
+                "estrelas": 5,
+                "autor": "autor-4",
+                "comentario": "comentario-4"
+            }
+        ]
+    },
+    {
+        "nomePrato": "receita-38",
+        "categoriaPrato": "pao",
+        "disponivel": true,
+        "porcoes": "granel",
+        "lactose": true,
+        "gluten": true,
+        "avaliacoes": [
+            {
+                "estrelas": 5,
+                "autor": "autor-1",
+                "comentario": "comentario-1"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-2",
+                "comentario": "comentario-2"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-3",
+                "comentario": "comentario-3"
+            },
+            {
+                "estrelas": 5,
+                "autor": "autor-4",
+                "comentario": "comentario-4"
+            }
+        ]
+    },
+    {
+        "nomePrato": "receita-39",
+        "categoriaPrato": "pao",
+        "disponivel": true,
+        "porcoes": "granel",
+        "lactose": true,
+        "gluten": true,
+        "avaliacoes": [
+            {
+                "estrelas": 5,
+                "autor": "autor-1",
+                "comentario": "comentario-1"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-2",
+                "comentario": "comentario-2"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-3",
+                "comentario": "comentario-3"
+            },
+            {
+                "estrelas": 5,
+                "autor": "autor-4",
+                "comentario": "comentario-4"
+            }
+        ]
+    },
+    {
+        "nomePrato": "receita-40",
+        "categoriaPrato": "pao",
+        "disponivel": true,
+        "porcoes": "granel",
+        "lactose": true,
+        "gluten": true,
+        "avaliacoes": [
+            {
+                "estrelas": 5,
+                "autor": "autor-1",
+                "comentario": "comentario-1"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-2",
+                "comentario": "comentario-2"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-3",
+                "comentario": "comentario-3"
+            },
+            {
+                "estrelas": 5,
+                "autor": "autor-4",
+                "comentario": "comentario-4"
+            }
+        ]
+    },
+    {
+        "nomePrato": "receita-41",
+        "categoriaPrato": "pao",
+        "disponivel": true,
+        "porcoes": "granel",
+        "lactose": true,
+        "gluten": true,
+        "avaliacoes": [
+            {
+                "estrelas": 5,
+                "autor": "autor-1",
+                "comentario": "comentario-1"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-2",
+                "comentario": "comentario-2"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-3",
+                "comentario": "comentario-3"
+            },
+            {
+                "estrelas": 5,
+                "autor": "autor-4",
+                "comentario": "comentario-4"
+            }
+        ]
+    },
+    {
+        "nomePrato": "receita-42",
+        "categoriaPrato": "pao",
+        "disponivel": true,
+        "porcoes": "granel",
+        "lactose": true,
+        "gluten": true,
+        "avaliacoes": [
+            {
+                "estrelas": 5,
+                "autor": "autor-1",
+                "comentario": "comentario-1"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-2",
+                "comentario": "comentario-2"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-3",
+                "comentario": "comentario-3"
+            },
+            {
+                "estrelas": 5,
+                "autor": "autor-4",
+                "comentario": "comentario-4"
+            }
+        ]
+    },
+    {
+        "nomePrato": "receita-43",
+        "categoriaPrato": "pao",
+        "disponivel": true,
+        "porcoes": "granel",
+        "lactose": true,
+        "gluten": true,
+        "avaliacoes": [
+            {
+                "estrelas": 5,
+                "autor": "autor-1",
+                "comentario": "comentario-1"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-2",
+                "comentario": "comentario-2"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-3",
+                "comentario": "comentario-3"
+            },
+            {
+                "estrelas": 5,
+                "autor": "autor-4",
+                "comentario": "comentario-4"
+            }
+        ]
+    },
+    {
+        "nomePrato": "receita-44",
+        "categoriaPrato": "pao",
+        "disponivel": true,
+        "porcoes": "granel",
+        "lactose": true,
+        "gluten": true,
+        "avaliacoes": [
+            {
+                "estrelas": 5,
+                "autor": "autor-1",
+                "comentario": "comentario-1"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-2",
+                "comentario": "comentario-2"
+            },
+            {
+                "estrelas": 4,
+                "autor": "autor-3",
+                "comentario": "comentario-3"
+            },
+            {
+                "estrelas": 5,
+                "autor": "autor-4",
+                "comentario": "comentario-4"
+            }
+        ]
+    }
+]
