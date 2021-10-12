@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="./styles/combos.css">
     <link rel="stylesheet" href="./styles/rodape.css">
     <link rel="stylesheet" href="./styles/aside--navegacao.css">
+    <link rel="stylesheet" href="./styles/modal.css">
 </head>
 
 <body>
@@ -112,7 +113,8 @@
                     <ul id="lista--sobremesa" class="menu--sobremesa--lista fs-2 mb-0">
                     </ul>
                 </section>
-                <section class="menu--paes text-center text-white p-3 col-lg-6">
+                <section
+                    class="d-flex flex-column justify-content-around menu--paes text-center text-white p-3 col-lg-6">
                     <h2 class="display-6"><span>PÃES</span></h2>
                     <p id="lista--pao" class="menu--paes--lista fs-4">
                     </p>
@@ -173,6 +175,51 @@
             </table>
         </section>
     </main>
+
+    <!-- Button trigger modal -->
+    <button type="button" id="aciona-modal" data-bs-toggle="modal" data-bs-target="#modal-prato">
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modal-prato" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div id="modal--cabecalho" class="modal-header">
+                    <h5 class="modal-title" id="modal--titulo"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pb-0">
+                    <div class="container">
+                        <p class="fs-5">
+                            Texto que eu queria colocar no JSON mas acabou sendo chumbado no código pra economizar
+                            um tempo, já que a ideia aqui é mostrar como serão as informações do prato e a parte mais
+                            legal disso é montar a lógica para exibir a modal com estilo, criar as linhas de avaliações
+                            / mostrar informações baseadas em flags.
+                        </p>
+                        <p id="aviso-gluten"><i class="bi bi-info-circle"></i> Contem Glúten.</p>
+                        <p id="aviso-lactose"><i class="bi bi-info-circle"></i> Contem Lactose.</p>
+                        <p id="total-estrelas" class="fs-2 text-center">5</p>
+                        <h5>Avaliações:</h5>
+                        <section id="modal--avaliacoes">
+                            <div class="row border-top py-2">
+                                <div class="col-1">
+                                    <p class="fs-2 mb-0">5</p>
+                                </div>
+                                <div class="col-11">
+                                    <h6>Fulano de Tal</h6>
+                                    <p class="mb-0">ficou muito gostoso e blablabla</p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <footer class="rodape d-flex justify-content-between align-items-center">
         <img class="rodape--imagem" src="./img/Pao.jpg" alt="pão ao contrario, ou oãp, como preferir">
         <p class="fs-6 text-center m-0">Gabriel Rodrigues Fausto © 2021</p>

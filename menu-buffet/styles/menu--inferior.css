@@ -19,6 +19,7 @@
     border-color: white;
 }
 
-.menu--paes--lista {
-    text-transform: uppercase;
+.menu--paes--lista li {
+    display: inline;
+    margin-left: 12px;
 }

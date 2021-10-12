@@ -6,7 +6,14 @@ let classesCategoria = {
 }
 iniciarTela();
 
+const estilosCabecalhoModal = ["modal--prato-principal", "modal--entrada",
+    "modal--sobremesa", "modal--pao"];
+
 const porCategoriaEDisponibilidade = categoria => prato => categoria === prato.categoriaPrato && prato.disponivel;
+
+const porNome = nome => prato => nome === prato.nomePrato;
+
+const reduzirAvaliacao = (avaliacoesAnteriores, avaliacao) => avaliacoesAnteriores + avaliacao;
 
 Array.prototype.inserirNa = function (categoria) {
     if (categoria === "entrada") {
@@ -21,7 +28,7 @@ Array.prototype.inserirNa = function (categoria) {
         if (classes)
             elementoLi.classList.add(...classes)
 
-        elementoLi.addEventListener("click", (event) => console.log(event.target.innerText));
+        elementoLi.addEventListener("click", (event) => exibirInfo(event.target.innerText));
         elemento("lista--" + categoria).appendChild(elementoLi);
     });
 }
@@ -77,3 +84,85 @@ function inserirPratosPorCategoria() {
         inserirPratosPorCategoria();
     }
 }
+
+//#region modal
+function exibirInfo(prato) {
+    let dadosPrato = dados.find(porNome(prato));
+
+    limpaModal();
+
+    elemento("modal--cabecalho").classList.add("modal--" + dadosPrato.categoriaPrato)
+    elemento("modal--titulo").innerText = prato;
+    elemento("total-estrelas").innerText = calculaEstrelas(dadosPrato.avaliacoes);
+
+    dadosPrato.avaliacoes.forEach(avaliacao => exibirAvaliacao(avaliacao));
+
+    if (dadosPrato.gluten)
+        exibir(elemento("aviso-gluten"));
+    if (dadosPrato.lactose)
+        exibir(elemento("aviso-lactose"));
+
+    elemento("aciona-modal").click();
+}
+
+function limpaModal() {
+    elemento("modal--avaliacoes").innerHTML = "";
+    elemento("modal--cabecalho").classList.remove(...estilosCabecalhoModal);
+    esconder(elemento("aviso-gluten"));
+    esconder(elemento("aviso-lactose"));
+}
+
+function calculaEstrelas(avaliacoes) {
+    let estrelas = avaliacoes
+        .map(avaliacao => avaliacao.estrelas)
+        .reduce(reduzirAvaliacao) / avaliacoes.length;
+    return Math.round(estrelas);
+}
+
+function exibirAvaliacao(avaliacao) {
+    let linhaAvaliacao = criarLinhaAvaliacao();
+
+    linhaAvaliacao.appendChild(criarColunaAvaliacao(avaliacao.estrelas));
+    linhaAvaliacao.appendChild(
+        criarColunaAutor(avaliacao.autor, avaliacao.comentario));
+
+    elemento("modal--avaliacoes").appendChild(linhaAvaliacao);
+}
+
+function criarLinhaAvaliacao() {
+    let row = criarElemento("div");
+    row.classList.add(...["row", "border-top", "py-2"]);
+    return row;
+}
+
+function criarColunaAvaliacao(estrelas) {
+    let col1 = criarElemento("div");
+    let p = criarElemento("p");
+
+    col1.classList.add("col-1");
+    p.classList.add(...["fs-2", "mb-0"]);
+
+    p.innerText = estrelas;
+
+    col1.appendChild(p);
+
+    return col1;
+}
+
+function criarColunaAutor(autor, comentario) {
+    let col11 = criarElemento("div");
+    let h6 = criarElemento("h6");
+    let p = criarElemento("p");
+
+    col11.classList.add("col-11");
+    p.classList.add("mb-0");
+
+    h6.innerText = autor;
+    p.innerText = comentario;
+
+    col11.appendChild(h6);
+    col11.appendChild(p);
+
+    return col11;
+}
+//#endregion

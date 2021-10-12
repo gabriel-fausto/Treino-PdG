@@ -1,0 +1,41 @@
+#aciona-modal {
+    display: none;
+}
+
+#total-estrelas {
+    padding-left: 1.5px;
+    padding-top: 18px;
+    padding-bottom: 14px;
+
+    background-image: url('../img/estrela.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    font-weight: 700;
+    color: rgb(100, 100, 100);
+}
+
+.modal--prato-principal {
+    background-color: rgba(87,52,52,1);
+    color: #e8bf83;
+}
+
+.modal--entrada {
+    background-color: rgb(92, 134, 72);
+    color: white
+}
+
+.modal--sobremesa {
+    background-color: rgb(81, 72, 134);
+    color: white
+}
+
+.modal--pao {
+    background-color: rgb(122, 78, 56);
+    color: white
+}
+
+li:hover {
+    cursor: pointer;
+}
